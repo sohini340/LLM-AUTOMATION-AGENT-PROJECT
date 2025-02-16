@@ -17,7 +17,6 @@ jobs:
         uses: docker/login-action@v3.3.0
         with:
           username: sohini340
-          password: ${{ secrets.DOCKER_PASSWORD }}  # Store password in GitHub Secrets
           ecr: false
           logout: true  # Ensure logout after job completion
 
